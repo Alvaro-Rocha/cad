@@ -62,7 +62,7 @@ $ind = (isset($_POST['indicador']) ? $_POST['indicador'] : 0);
             <div class="col-6" id="doc"><?= $doc ?></div>
         </div>
     </div>    
-    <input type="number" class="form-control" id="indica" value="<?= $ind ?>">
+    <input type="number" hidden class="form-control" id="indica" value="<?= $ind ?>">
     <nav>
         <div class="nav nav-tabs mt-4" id="nav-tab" role="tablist">
             <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Pessoal</button>

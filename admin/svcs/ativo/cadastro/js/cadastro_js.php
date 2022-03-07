@@ -29,7 +29,6 @@ var dataAtual =  ano + "-0" + mes + "-0" + dia;
 //alert(dataAtual)
 $("#dataC").val(dataAtual)
 $("#botaoS").on("click", function(){
-    alert("oi");
     Window.open("complemento/complemento.php");
     return false;
 });
